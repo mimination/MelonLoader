@@ -21,4 +21,4 @@ MPORTANT NOTES:
 - All interactions with MelonLoader should occur within the Fix directory. Leave the RotMG content in the Production folder untouched.
 
 WHY THIS WORKS:
-- MelonLoader wasn't designed to handle obfuscation. By creating the Fix folder, we direct MelonLoader to access the non-obfuscated metadata from our "Fix" directory, bypassing the issues present in the "Production" folder.
+MelonLoader isnt designed to handle obfuscation, introducing a new directory in the form of the Fix folder offers a workaround. By migrating our files and configurations to this new directory, we can bypass the obfuscation mechanisms that previously interfered with the metadata in the Production directory. 
