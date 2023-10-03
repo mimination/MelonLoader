@@ -10,7 +10,7 @@ C:\Users\mimi\Documents\RealmOfTheMadGod\Production
 
 4. COPY everything from the Production folder into your new Fix folder.
 
-5. DOWNLOAD the toolkit from: https://github.com/mimination/MelonLoader
+5. DOWNLOAD the toolkit from above.
 
 6. EXTRACT all contents from MelonLoader-master and place them inside
 C:\Users\mimi\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader
