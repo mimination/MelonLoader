@@ -1,0 +1,480 @@
+﻿[23:30:49.056] [DEBUG] Initializing Analytics Blocker...
+[23:30:49.084] [DEBUG] Hooking wsock32::gethostbyname (0x7FFAF2DF66D0)...
+[23:30:49.090] [DEBUG] Hooking ws2_32...
+[23:30:49.112] ------------------------------
+[23:30:49.112] MelonLoader v0.6.1 Open-Beta
+[23:30:49.113] OS: Windows 10
+[23:30:49.114] Hash Code: 954C68B0D271111CF68E204479BB67E9E33460488CD27F2B9584B36E7F4
+[23:30:49.114] ------------------------------
+[23:30:49.114] Game Type: Il2cpp
+[23:30:49.114] Game Arch: x64
+[23:30:49.115] ------------------------------
+[23:30:49.115] Core::BasePath = C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix
+[23:30:49.115] Game::BasePath = C:\Users\james\Documents\RealmOfTheMadGod\Production
+[23:30:49.115] Game::DataPath = C:\Users\james\Documents\RealmOfTheMadGod\Production\RotMG Exalt_Data
+[23:30:49.116] Game::ApplicationPath = C:\Users\james\Documents\RealmOfTheMadGod\Production\RotMG Exalt.exe
+[23:30:49.116] Runtime Type: net6
+[23:30:49.207] ------------------------------
+[23:30:49.207] Game Name: RotMGExalt
+[23:30:49.208] Game Developer: DECA Live Operations GmbH
+[23:30:49.209] Unity Version: 2021.3.16f1
+[23:30:49.209] Game Version: b8903fd09
+[23:30:49.210] ------------------------------
+
+[23:30:49.213] [DEBUG] [MonoLibrary] Caught SecurityException, assuming not running under mono and continuing with init
+[23:30:49.680] Preferences Loaded!
+[23:30:49.682] [DEBUG] Ignoring MelonModule 'C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Dependencies\CompatibilityLayers\IPA.dll'...
+
+[23:30:49.692] Loading Plugins from 'C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\Plugins'...
+[23:30:49.694] 0 Plugins loaded.
+[23:30:50.026] [DEBUG] Resolving ICall UnityEngine.Debug::get_isDebugBuild
+[23:30:50.026] [DEBUG]  > 0x7FFA080AF790
+[23:30:50.027] [MelonStartScreen] Initializing...
+[23:30:50.044] [MelonStartScreen] Using Start Screen Theme: "Default"
+[23:30:50.045] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Color
+[23:30:50.046] [DEBUG]  > 0x2952C9B6E30
+[23:30:50.047] [DEBUG] GetMethod System.String ToString()
+[23:30:50.047] [DEBUG]  > 0x29550FAA918
+[23:30:50.060] [DEBUG] Current Unity flags: 33
+[23:30:50.085] [DEBUG] Resolving ICall UnityEngine.FrameTimingManager::CaptureFrameTimings
+[23:30:50.085] [DEBUG]  > 0x7FFA08119650
+[23:30:50.087] [DEBUG] Signature for m_PresentFrame: 40 53 48 83 ec 20 e8 ?? ?? ?? ?? 48 8b c8 48 8b d8 e8 ?? ?? ?? ?? e8 ?? ?? ?? ?? 48 85 c0 74
+[23:30:50.115] [DEBUG] Signature for m_D3D11WaitForLastPresentationAndGetTimestamp: 48 89 5c 24 10 56 48 81 ec 90 00 00 00 0f 29 b4 24 80 00 00 00 48 8b f1
+[23:30:50.144] [DEBUG] Signature for m_D3D12WaitForLastPresentationAndGetTimestamp: 48 89 5c 24 08 57 48 81 ec 90 00 00 00 0f 29 b4 24 80 00 00 00 48 8b d9
+[23:30:50.145] [DEBUG] Value for Tangent: 2
+[23:30:50.146] [DEBUG] Value for Color: 3
+[23:30:50.147] [DEBUG] Value for TexCoord0: 4
+[23:30:50.157] [DEBUG] Signature for m_SetupPixelCorrectCoordinates: 48 89 5c 24 08 57 48 81 ec a0 00 00 00 8b d9 e8 ?? ?? ?? ?? 48 8b f8 e8
+[23:30:50.164] [DEBUG] User32::SetTimer original: 0x7FFAF2C44070
+[23:30:50.164] [DEBUG] Applying USER32.dll::SetTimer Hook at 0x7FFAF2C44070
+[23:30:50.352] [DEBUG] Applied USER32.dll::SetTimer patch
+[23:30:50.352] [DEBUG] Initializing Screen Renderer
+[23:30:50.353] [DEBUG] Initializing UIStyleValues
+[23:30:50.354] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Texture2D
+[23:30:50.354] [DEBUG]  > 0x2952C9C7370
+[23:30:50.355] [DEBUG] GetMethod System.Void .ctor(System.Int32, System.Int32)
+[23:30:50.355] [DEBUG]  > 0x2952DC28BC0
+[23:30:50.355] [DEBUG] GetMethod UnityEngine.Texture2D get_whiteTexture()
+[23:30:50.355] [DEBUG]  > 0x2952DC282D0
+[23:30:50.356] [DEBUG] Resolving ICall UnityEngine.Texture2D::SetPixelsImpl
+[23:30:50.356] [DEBUG]  > 0x7FFA0808D430
+[23:30:50.357] [DEBUG] GetMethod System.Void Apply()
+[23:30:50.358] [DEBUG]  > 0x2952DC29038
+[23:30:50.358] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Texture
+[23:30:50.359] [DEBUG]  > 0x2952CA54D70
+[23:30:50.359] [DEBUG] Resolving ICall UnityEngine.Texture::GetDataWidth
+[23:30:50.359] [DEBUG]  > 0x7FFA08078B70
+[23:30:50.360] [DEBUG] Resolving ICall UnityEngine.Texture::GetDataHeight
+[23:30:50.360] [DEBUG]  > 0x7FFA08078EF0
+[23:30:50.360] [DEBUG] Resolving ICall UnityEngine.Texture::set_filterMode
+[23:30:50.360] [DEBUG]  > 0x7FFA0807C910
+[23:30:50.361] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Object
+[23:30:50.361] [DEBUG]  > 0x2952C982BE0
+[23:30:50.361] [DEBUG] GetMethod System.Void DestroyImmediate(UnityEngine.Object)
+[23:30:50.361] [DEBUG]  > 0x2952DBD84C8
+[23:30:50.361] [DEBUG] GetMethod System.Void DontDestroyOnLoad(UnityEngine.Object)
+[23:30:50.362] [DEBUG]  > 0x2952DBD85D0
+[23:30:50.362] [DEBUG] Resolving ICall UnityEngine.Object::get_hideFlags(UnityEngine.Object)
+[23:30:50.362] [DEBUG]  > 0x7FFA0809E060
+[23:30:50.362] [DEBUG] Resolving ICall UnityEngine.Object::set_hideFlags(UnityEngine.Object)
+[23:30:50.362] [DEBUG]  > 0x7FFA0809E880
+[23:30:50.366] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Resources
+[23:30:50.367] [DEBUG]  > 0x2952CA48310
+[23:30:50.367] [DEBUG] GetMethod UnityEngine.Object GetBuiltinResource(System.Type, System.String)
+[23:30:50.367] [DEBUG]  > 0x2952DBE0DD0
+[23:30:50.367] [DEBUG] GetBuiltinResource<T>
+[23:30:50.368] [DEBUG] GetClass UnityEngine.TextRenderingModule.dll UnityEngine Font
+[23:30:50.368] [DEBUG]  > 0x29550F40BF0
+[23:30:50.368] [DEBUG] GetMethod UnityEngine.Material get_material()
+[23:30:50.368] [DEBUG]  > 0x29550FC63D0
+[23:30:50.369] [DEBUG] GetClass mscorlib.dll System Type
+[23:30:50.369] [DEBUG]  > 0x2952B57B3B0
+[23:30:50.369] [DEBUG] GetMethod System.Type internal_from_handle(System.IntPtr)
+[23:30:50.370] [DEBUG]  > 0x2952DC746A0
+[23:30:50.370] [DEBUG] Calling runtime_invoke for GetBuiltinResource
+[23:30:50.371] [DEBUG] returnedException: 0, objectPointer: 2839724694192
+[23:30:50.371] [DEBUG] GetBuiltinResource<T>
+[23:30:50.371] [DEBUG] Calling runtime_invoke for GetBuiltinResource
+[23:30:50.371] [DEBUG] returnedException: 0, objectPointer: 2839724694192
+[23:30:50.374] [DEBUG] Resolving ICall UnityEngine.ImageConversion::LoadImage(UnityEngine.Texture2D,System.Byte[],System.Boolean)
+[23:30:50.374] [DEBUG]  > 0x7FFA081A0330
+[23:30:50.374] [DEBUG] Running class constructor on Il2CppSystem.Byte
+[23:30:50.375] [DEBUG] GetClass mscorlib.dll System Byte
+[23:30:50.376] [DEBUG]  > 0x2952B577A00
+[23:30:50.377] [DEBUG] Done running class constructor
+[23:30:50.382] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Color32
+[23:30:50.383] [DEBUG]  > 0x29550DA7930
+[23:30:51.009] [DEBUG] UIStyleValues Initialized
+[23:30:51.009] [DEBUG] Resolving ICall UnityEngine.SystemInfo::GetGraphicsDeviceType
+[23:30:51.010] [DEBUG]  > 0x7FFA080C0FF0
+[23:30:51.011] [DEBUG] Graphics Device Type: 2
+[23:30:51.011] [DEBUG] Screen Renderer initialized
+[23:30:51.012] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Screen
+[23:30:51.025] [DEBUG]  > 0x295F857C8C0
+[23:30:51.026] [DEBUG] GetMethod System.Int32 get_width()
+[23:30:51.026] [DEBUG]  > 0x295F8934880
+[23:30:51.026] [DEBUG] GetMethod System.Int32 get_height()
+[23:30:51.027] [DEBUG]  > 0x295F89348D8
+[23:30:51.028] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Rect
+[23:30:51.028] [DEBUG]  > 0x2952C9808B0
+[23:30:51.029] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Graphics
+[23:30:51.030] [DEBUG]  > 0x295F857C440
+[23:30:51.030] [DEBUG] Resolving ICall UnityEngine.Graphics::Internal_DrawTexture
+[23:30:51.030] [DEBUG]  > 0x7FFA080FF010
+[23:30:51.031] [DEBUG] Resolving ICall UnityEngine.Graphics::Internal_DrawTexture
+[23:30:51.031] [DEBUG]  > 0x7FFA080FF010
+[23:30:51.032] [DEBUG] Resolving ICall UnityEngine.Graphics::Internal_DrawTexture
+[23:30:51.032] [DEBUG]  > 0x7FFA080FF010
+[23:30:51.032] [DEBUG] Resolving ICall UnityEngine.Graphics::Internal_DrawTexture
+[23:30:51.033] [DEBUG]  > 0x7FFA080FF010
+[23:30:51.033] [DEBUG] Resolving ICall UnityEngine.Graphics::Internal_DrawMeshNow1_Injected
+[23:30:51.033] [DEBUG]  > 0x7FFA080FE160
+[23:30:51.038] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Material
+[23:30:51.038] [DEBUG]  > 0x29550F459F0
+[23:30:51.038] [DEBUG] Resolving ICall UnityEngine.Material::SetPass
+[23:30:51.039] [DEBUG]  > 0x7FFA08106C50
+[23:30:51.040] [DEBUG] GetClass UnityEngine.TextRenderingModule.dll UnityEngine TextGenerationSettings
+[23:30:51.040] [DEBUG]  > 0x29550F40D70
+[23:30:51.041] [DEBUG] GetField font
+[23:30:51.042] [DEBUG]  > 0x29550FA91E0
+[23:30:51.042] [DEBUG] GetField color
+[23:30:51.042] [DEBUG]  > 0x29550FA9200
+[23:30:51.043] [DEBUG] GetField fontSize
+[23:30:51.043] [DEBUG]  > 0x29550FA9220
+[23:30:51.043] [DEBUG] GetField lineSpacing
+[23:30:51.043] [DEBUG]  > 0x29550FA9240
+[23:30:51.044] [DEBUG] GetField richText
+[23:30:51.044] [DEBUG]  > 0x29550FA9260
+[23:30:51.044] [DEBUG] GetField scaleFactor
+[23:30:51.044] [DEBUG]  > 0x29550FA9280
+[23:30:51.044] [DEBUG] GetField fontStyle
+[23:30:51.045] [DEBUG]  > 0x29550FA92A0
+[23:30:51.047] [DEBUG] GetField textAnchor
+[23:30:51.047] [DEBUG]  > 0x29550FA92C0
+[23:30:51.047] [DEBUG] GetField verticalOverflow
+[23:30:51.048] [DEBUG]  > 0x29550FA9380
+[23:30:51.048] [DEBUG] GetField generationExtents
+[23:30:51.048] [DEBUG]  > 0x29550FA93C0
+[23:30:51.048] [DEBUG] GetField pivot
+[23:30:51.048] [DEBUG]  > 0x29550FA93E0
+[23:30:51.049] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Vector2
+[23:30:51.049] [DEBUG]  > 0x2952C97F870
+[23:30:51.052] [DEBUG] GetClass UnityEngine.TextRenderingModule.dll UnityEngine TextGenerator
+[23:30:51.052] [DEBUG]  > 0x29550FE8EB0
+[23:30:51.053] [DEBUG] GetMethod System.Void .ctor()
+[23:30:51.053] [DEBUG]  > 0x29550FA95A0
+[23:30:51.053] [DEBUG] GetMethod System.Boolean Populate(System.String, UnityEngine.TextGenerationSettings)
+[23:30:51.054] [DEBUG]  > 0x29550FA9A18
+[23:30:51.054] [DEBUG] Resolving ICall UnityEngine.TextGenerator::get_vertexCount
+[23:30:51.054] [DEBUG]  > 0x7FFA081A2210
+[23:30:51.055] [DEBUG] Resolving ICall UnityEngine.TextGenerator::GetVerticesArray
+[23:30:51.055] [DEBUG]  > 0x7FFA081A2910
+[23:30:51.112] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Mesh
+[23:30:51.113] [DEBUG]  > 0x2952CA46690
+[23:30:51.113] [DEBUG] GetMethod System.Void .ctor()
+[23:30:51.114] [DEBUG]  > 0x2952DBEC2C0
+[23:30:51.114] [DEBUG] GetMethod System.Void set_triangles(System.Int32[])
+[23:30:51.114] [DEBUG]  > 0x2952DBEDB28
+[23:30:51.114] [DEBUG] GetMethod System.Void RecalculateBounds()
+[23:30:51.115] [DEBUG]  > 0x2952DBEE050
+[23:30:51.116] [DEBUG] Resolving ICall UnityEngine.Mesh::SetArrayForChannelImpl
+[23:30:51.117] [DEBUG]  > 0x7FFA080E9E50
+[23:30:51.119] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Vector3
+[23:30:51.120] [DEBUG]  > 0x2952C9D9D80
+[23:30:51.120] [DEBUG] Resolving ICall UnityEngine.GL::get_sRGBWrite
+[23:30:51.121] [DEBUG]  > 0x7FFA08116BC0
+[23:30:51.123] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Vector4
+[23:30:51.124] [DEBUG]  > 0x2952DD0E920
+[23:30:51.126] [DEBUG] Running class constructor on Il2CppSystem.Int32
+[23:30:51.126] [DEBUG] GetClass mscorlib.dll System Int32
+[23:30:51.126] [DEBUG]  > 0x2952B578580
+[23:30:51.127] [DEBUG] Done running class constructor
+[23:30:51.127] [DEBUG] GetClass UnityEngine.CoreModule.dll UnityEngine Quaternion
+[23:30:51.128] [DEBUG]  > 0x2952C9E9F90
+[23:30:51.140] Loading Il2CppAssemblyGenerator...
+[23:30:51.145] [Il2CppAssemblyGenerator] Contacting RemoteAPI...
+[23:30:51.146] [DEBUG] ContactURL = https://api.melonloader.com/api/v1/game/rotmgexalt
+[23:30:52.282] [Il2CppAssemblyGenerator] Game Not Found on RemoteAPI Host (https://api.melonloader.com/api/v1/game/rotmgexalt)
+[23:30:52.283] [Il2CppAssemblyGenerator] RemoteAPI.DumperVersion = null
+[23:30:52.284] [Il2CppAssemblyGenerator] RemoteAPI.ObfuscationRegex = null
+[23:30:52.284] [Il2CppAssemblyGenerator] RemoteAPI.MappingURL = null
+[23:30:52.284] [Il2CppAssemblyGenerator] RemoteAPI.MappingFileSHA512 = null
+[23:30:52.290] [Il2CppAssemblyGenerator] Using Dumper Version: 2022.1.0-pre-release.10
+[23:30:52.290] [Il2CppAssemblyGenerator] Using Il2CppInterop Version = 1.4.5
+[23:30:52.291] [Il2CppAssemblyGenerator] Using Unity Dependencies Version = 2021.3.16
+[23:30:52.291] [Il2CppAssemblyGenerator] Using Deobfuscation Regex = null
+[23:30:52.292] [Il2CppAssemblyGenerator] Cpp2IL is up to date.
+[23:30:52.292] [Il2CppAssemblyGenerator] UnityDependencies is up to date.
+[23:30:52.295] [Il2CppAssemblyGenerator] Checking GameAssembly...
+[23:30:52.295] [DEBUG] Last GameAssembly Hash: 5240c626ecdd74080869656223a810c71164dc1104eaaaf6d5610797652e8487e0f6e5f5ba0acbd2de4e2201d6aacc10332832786215d44faf1fde9ba316d6de
+[23:30:52.487] [DEBUG] Current GameAssembly Hash: 5240c626ecdd74080869656223a810c71164dc1104eaaaf6d5610797652e8487e0f6e5f5ba0acbd2de4e2201d6aacc10332832786215d44faf1fde9ba316d6de
+[23:30:52.487] [Il2CppAssemblyGenerator] Assembly is up to date. No Generation Needed.
+
+[23:30:52.512] Loading Mods from 'C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\Mods'...
+[23:30:52.514] ------------------------------
+[23:30:52.520] Melon Assembly loaded: '.\Mods\mapper.dll'
+[23:30:52.521] SHA256 Hash: '17c398f68dc0ecc4ddf3b1c74fff709234d000494d14c68a7ccc175c689dcb59'
+[23:30:52.529] Melon Assembly loaded: '.\Mods\spooflet.dll'
+[23:30:52.529] SHA256 Hash: 'af4df7daaf011866c9bd0e260dbd5abf2d520b64fac6a1471d9ed44d3c6e3768'
+[23:30:52.557] Melon Assembly loaded: '.\Mods\UnityExplorer.ML.IL2CPP.net6preview.interop.dll'
+[23:30:52.557] SHA256 Hash: '7f6d37ae800a09620512687ac0346720ee4c80fb6e9859187e6e30957227c2c4'
+[23:30:52.564] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll...
+[23:30:52.601] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll...
+
+[23:30:52.663] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll...
+[23:30:52.669] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll...
+[23:30:52.671] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll...
+[23:30:52.904] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll...
+[23:30:52.918] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\UserLibs\UniverseLib.IL2CPP.Interop.ML.dll...
+[23:30:52.922] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UIModule.dll...
+[23:30:52.923] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.TextRenderingModule.dll...
+[23:30:52.924] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.AudioModule.dll...
+[23:30:52.927] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll...
+[23:30:52.939] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll...
+[23:30:52.955] [DEBUG] MelonAssembly 'mapper' subscribed with OnApplicationQuit
+[23:30:52.956] [DEBUG] MelonAssembly 'mapper' subscribed with OnUpdate
+[23:30:52.956] [DEBUG] MelonAssembly 'mapper' subscribed with OnLateUpdate
+[23:30:52.956] [DEBUG] MelonAssembly 'mapper' subscribed with OnGUI
+[23:30:52.957] [DEBUG] MelonAssembly 'mapper' subscribed with OnFixedUpdate
+[23:30:52.957] [DEBUG] MelonAssembly 'mapper' subscribed with OnApplicationLateStart
+[23:30:52.957] [DEBUG] MelonAssembly 'mapper' subscribed with PrefsLoaded
+[23:30:52.957] [DEBUG] MelonAssembly 'mapper' subscribed with PrefsSaved
+[23:30:52.957] [DEBUG] MelonAssembly 'mapper' subscribed with OnSceneWasLoaded
+[23:30:52.958] [DEBUG] MelonAssembly 'mapper' subscribed with OnSceneWasInitialized
+[23:30:52.958] [DEBUG] MelonAssembly 'mapper' subscribed with OnSceneWasUnloaded
+[23:30:52.958] [DEBUG] MelonAssembly 'mapper' subscribed with <RegisterCallbacks>b__3_0
+[23:30:52.959] [DEBUG] MelonAssembly 'mapper' subscribed with <RegisterCallbacks>b__3_1
+[23:30:52.959] [DEBUG] MelonAssembly 'mapper' subscribed with OnApplicationStart
+[23:30:52.959] [DEBUG] MelonAssembly 'mapper' subscribed with HarmonyInit
+[23:30:52.960] ------------------------------
+[23:30:52.961] Mapper v7.0.0
+[23:30:52.961] by Negus
+[23:30:52.961] Assembly: mapper.dll
+[23:30:52.961] ------------------------------
+[23:30:52.962] [DEBUG] MelonAssembly 'mapper' subscribed with LoaderInitialized
+[23:30:52.962] [DEBUG] MelonAssembly 'mapper' subscribed with OnLateInitializeMelon
+[23:30:52.967] [DEBUG] MelonAssembly 'spooflet' subscribed with OnApplicationQuit
+[23:30:52.967] [DEBUG] MelonAssembly 'spooflet' subscribed with OnUpdate
+[23:30:52.968] [DEBUG] MelonAssembly 'spooflet' subscribed with OnLateUpdate
+[23:30:52.968] [DEBUG] MelonAssembly 'spooflet' subscribed with OnGUI
+[23:30:52.968] [DEBUG] MelonAssembly 'spooflet' subscribed with OnFixedUpdate
+[23:30:52.968] [DEBUG] MelonAssembly 'spooflet' subscribed with OnApplicationLateStart
+[23:30:52.969] [DEBUG] MelonAssembly 'spooflet' subscribed with PrefsLoaded
+[23:30:52.969] [DEBUG] MelonAssembly 'spooflet' subscribed with PrefsSaved
+[23:30:52.969] [DEBUG] MelonAssembly 'spooflet' subscribed with OnSceneWasLoaded
+[23:30:52.969] [DEBUG] MelonAssembly 'spooflet' subscribed with OnSceneWasInitialized
+[23:30:52.969] [DEBUG] MelonAssembly 'spooflet' subscribed with OnSceneWasUnloaded
+[23:30:52.970] [DEBUG] MelonAssembly 'spooflet' subscribed with <RegisterCallbacks>b__3_0
+[23:30:52.970] [DEBUG] MelonAssembly 'spooflet' subscribed with <RegisterCallbacks>b__3_1
+[23:30:52.970] [DEBUG] MelonAssembly 'spooflet' subscribed with OnApplicationStart
+[23:30:52.971] [DEBUG] MelonAssembly 'spooflet' subscribed with HarmonyInit
+[23:30:52.971] ------------------------------
+[23:30:52.971] Nigware v1.0.0
+[23:30:52.971] by Nexus
+[23:30:52.972] Assembly: spooflet.dll
+[23:30:52.972] ------------------------------
+[23:30:52.972] [DEBUG] MelonAssembly 'spooflet' subscribed with LoaderInitialized
+[23:30:52.972] [DEBUG] MelonAssembly 'spooflet' subscribed with OnLateInitializeMelon
+[23:30:52.979] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnApplicationQuit
+[23:30:52.979] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnUpdate
+[23:30:52.979] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnLateUpdate
+[23:30:52.979] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnGUI
+[23:30:52.979] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnFixedUpdate
+[23:30:52.980] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnApplicationLateStart
+[23:30:52.980] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with PrefsLoaded
+[23:30:52.980] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with PrefsSaved
+[23:30:52.980] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnSceneWasLoaded
+[23:30:52.981] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnSceneWasInitialized
+[23:30:52.981] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnSceneWasUnloaded
+[23:30:52.981] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with <RegisterCallbacks>b__3_0
+[23:30:52.981] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with <RegisterCallbacks>b__3_1
+[23:30:52.982] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnApplicationStart
+[23:30:52.982] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with HarmonyInit
+[23:30:52.982] ------------------------------
+[23:30:52.982] UnityExplorer v4.9.4
+[23:30:52.982] by Sinai
+[23:30:52.982] Assembly: UnityExplorer.ML.IL2CPP.net6preview.interop.dll
+[23:30:52.983] ------------------------------
+[23:30:52.983] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with LoaderInitialized
+[23:30:52.983] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' subscribed with OnLateInitializeMelon
+[23:30:52.983] ------------------------------
+[23:30:52.983] 3 Mods loaded.
+
+[23:30:52.986] [DEBUG] [DotnetManagedFolder] Failed to find Il2CppInterop.HarmonySupport.dll in any of the known search directories
+[23:30:53.182] [DEBUG] il2cpp_object_get_virtual_method: 0x7FFA02C039F0
+[23:30:53.250] [DEBUG] Object::GetVirtualMethod: 0x7FFA02BB2AC0
+[23:30:53.255] [DEBUG] GenericMethod::GetMethod: 0x7FFA02BC6B40
+[23:30:53.259] [DEBUG] il2cpp_image_get_class: 0x7FFA02C036D0
+[23:30:53.259] [DEBUG] Image::GetType: 0x7FFA02C41810
+[23:30:53.260] [DEBUG] imageGetTypeXrefs.Length: 2
+[23:30:53.260] [DEBUG] getTypeInfoFromHandle: 7FFA02BE7200
+[23:30:53.261] [DEBUG] MetadataCache::GetTypeInfoFromTypeDefinitionIndex: 0x7FFA02C1F570
+[23:30:53.277] [DEBUG] Class::GetDefaultFieldValue: 0x7FFA02C1E0F0
+[23:30:53.464] Class::Init signatures have been exhausted, using a substitute!
+[23:30:53.464] [DEBUG] Picked mono_class_instance_size as a Class::Init substitute
+[23:30:53.465] [DEBUG] Class::Init: 0x7FFA02C04230
+[23:30:53.465] [DEBUG] il2cpp_class_from_il2cpp_type: 0x7FFA02C02FB0
+[23:30:53.466] [DEBUG] Class::FromIl2CppType: 0x7FFA02BE40B0
+[23:30:53.466] [DEBUG] il2cpp_class_from_name: 0x7FFA02C02FC0
+[23:30:53.466] [DEBUG] Class::FromName: 0x7FFA02BE4610
+[23:30:53.477] [DEBUG] [DotnetManagedFolder] Failed to find Il2CppSystem.Private.CoreLib.dll in any of the known search directories
+[23:30:53.484] Registered mono type Il2CppInterop.Runtime.DelegateSupport+Il2CppToMonoDelegateReference in il2cpp domain
+[23:30:53.507] [DEBUG] [DotnetManagedFolder] Failed to find Il2CppSystem.Private.CoreLib.dll in any of the known search directories
+[23:30:53.509] Registered mono type MelonLoader.Support.MonoEnumeratorWrapper in il2cpp domain
+[23:30:53.510] [DEBUG] [DotnetManagedFolder] Failed to find Il2CppSystem.Private.CoreLib.dll in any of the known search directories
+[23:30:53.511] Registered mono type MelonLoader.Support.SM_Component in il2cpp domain
+[23:30:53.516] Support Module Loaded: C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Dependencies\SupportModules\Il2Cpp.dll
+[23:30:53.536] [DEBUG] MelonAssembly 'mapper' unsubscribed with HarmonyInit
+[23:30:53.537] [DEBUG] MelonAssembly 'spooflet' unsubscribed with HarmonyInit
+[23:30:53.540] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' unsubscribed with HarmonyInit
+[23:30:53.540] [DEBUG] MelonAssembly 'mapper' unsubscribed with LoaderInitialized
+[23:30:53.540] [DEBUG] MelonAssembly 'spooflet' unsubscribed with LoaderInitialized
+[23:30:53.545] [UnityExplorer] UnityExplorer 4.9.4 initializing...
+[23:30:53.567] [UnityExplorer] [UniverseLib] UniverseLib 1.5.4.1 initializing...
+[23:30:53.568] [DEBUG] [DotnetManagedFolder] Failed to find Il2CppSystem.Private.CoreLib.dll in any of the known search directories
+[23:30:53.569] Registered mono type UniverseLib.UniversalBehaviour in il2cpp domain
+[23:30:53.766] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.Physics2DModule.dll...
+[23:30:53.770] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll...
+[23:30:53.775] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Mathematics.dll...
+[23:30:53.876] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.VideoModule.dll...
+[23:30:53.889] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreFontEngineModule.dll...
+[23:30:53.938] [DEBUG] [DotnetManagedFolder] Failed to find Il2CppSystem.Private.CoreLib.dll in any of the known search directories
+[23:30:53.938] Registered mono type UniverseLib.Runtime.Il2Cpp.Il2CppManagedEnumerator in il2cpp domain
+[23:30:53.941] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Assembly-CSharp-firstpass.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:53.946] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll...
+[23:30:53.948] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppMono.Security.dll...
+[23:30:53.961] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Configuration.dll...
+[23:30:53.968] [UnityExplorer] [UniverseLib] Finished UniverseLib initial setup.
+[23:30:53.976] [DEBUG] [DotnetManagedFolder] Failed to find Il2CppSystem.Private.CoreLib.dll in any of the known search directories
+[23:30:53.977] Registered mono type UnityExplorer.ExplorerBehaviour in il2cpp domain
+[23:30:54.037] [UnityExplorer] Initialized UnityCrashPrevention for: Canvas.get_renderingDisplaySize
+[23:30:54.037] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' unsubscribed with LoaderInitialized
+[23:30:54.149] [DEBUG] Host Name or IP blocked: config.uca.cloud.unity3d.com
+[23:30:54.150] [DEBUG] MelonAssembly 'mapper' unsubscribed with OnLateInitializeMelon
+[23:30:54.150] [DEBUG] MelonAssembly 'spooflet' unsubscribed with OnLateInitializeMelon
+[23:30:54.150] [DEBUG] MelonAssembly 'UnityExplorer.ML.IL2CPP.net6preview.interop' unsubscribed with OnLateInitializeMelon
+[23:30:54.157] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.376] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppACTk.Examples.Genuine.Runtime.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.377] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppACTk.Examples.Runtime.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.379] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppACTk.Runtime.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.383] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestModule.dll...
+[23:30:54.386] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppNewtonsoft.Json.dll...
+[23:30:54.394] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.dll...
+[23:30:54.412] [UnityExplorer] [UniverseLib] Can't cache type named BigIntegerContents Error: System.TypeLoadException: Could not load type 'Il2CppCodeStage.AntiCheat.ObscuredTypes.SerializableBigInteger' from assembly 'Il2CppACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' because the format is invalid.
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.RuntimeTypeCache.GetNameSpace()
+   at System.RuntimeType.get_Namespace()
+   at UniverseLib.ReflectionUtility.CacheTypes(Assembly asm) in C:\Users\xande\Documents\Documents\Btd6 Mods\Mod Projects\UniverseLib-NewML\src\Reflection\ReflectionUtility.cs:line 124
+[23:30:54.414] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppCoffee.UIParticle.Demo.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.415] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppCoffee.UIParticle.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.416] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppDOTween.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.423] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppFacepunch.Steamworks.Win64.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.460] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppJacksonDunstanNativeCollectionsAssembly.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.462] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppMono.Security.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.464] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.493] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppNewtonsoft.Json.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.513] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Configuration.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.514] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.522] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Data.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.535] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.560] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Net.Http.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.564] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Numerics.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.565] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Runtime.Serialization.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.566] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.581] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.Linq.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.583] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppUniTask.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.599] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.ParticleSystemModule.dll...
+[23:30:54.605] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Il2CppZFBrowser.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.633] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.XRModule.dll...
+[23:30:54.635] [DEBUG] [DotnetManagedFolder] Loading from C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.SubsystemsModule.dll...
+[23:30:54.639] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Burst.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.648] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Burst.Unsafe.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.649] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Collections.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.667] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Collections.LowLevel.ILSupport.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.668] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.InternalAPIEngineBridge.003.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.669] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Mathematics.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.677] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.Core.Configuration.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.679] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.Core.Device.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.680] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.Core.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.681] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.Core.Environments.Internal.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.681] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.Core.Internal.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.685] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.Core.Registration.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.693] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.Core.Scheduler.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.694] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.Core.Telemetry.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.696] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.Core.Threading.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.696] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.Services.RemoteConfig.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.699] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.707] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\Unity.VectorGraphics.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.713] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.AccessibilityModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.714] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.AIModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.717] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.AndroidJNIModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.724] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.740] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.ARModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.742] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.AssetBundleModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.744] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.AudioModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.746] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.ClothModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.748] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.ClusterInputModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.749] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.ClusterRendererModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.749] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.797] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.CrashReportingModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.798] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.DirectorModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.799] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.800] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.DSPGraphModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.801] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.GameCenterModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.802] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.GIModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.803] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.GridModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.804] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.HotReloadModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.805] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.ImageConversionModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.806] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.808] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.809] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.InputModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.810] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.JSONSerializeModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.811] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.LocalizationModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.812] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.NVIDIAModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.813] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.ParticleSystemModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.814] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.PerformanceReportingModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.815] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.Physics2DModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.824] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.827] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.ProfilerModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.828] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.828] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.ScreenCaptureModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.829] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.SharedInternalsModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.831] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.SpriteMaskModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.832] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.SpriteShapeModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.833] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.StreamingModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.833] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.SubstanceModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.834] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.SubsystemsModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.841] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.TerrainModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.845] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.TerrainPhysicsModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.846] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreFontEngineModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.847] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreTextEngineModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.851] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.TextRenderingModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.857] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.TilemapModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.860] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.TLSModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.861] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.866] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UIElementsModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.908] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UIElementsNativeModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.911] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UIModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.911] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UmbraModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.912] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UNETModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.915] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsCommonModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.916] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.918] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityConnectModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.925] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityCurlModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.927] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityTestProtocolModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.927] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAssetBundleModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.928] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAudioModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.929] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.930] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestTextureModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.931] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestWWWModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.931] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.VehiclesModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.932] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.VFXModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.935] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.VideoModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.941] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.VirtualTexturingModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.943] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.VRModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.945] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.WindModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.946] [DEBUG] [.NET AssemblyLoadContext Fix] Redirecting Assembly.LoadFile(C:\Users\james\Documents\RealmOfTheMadGod\Production\Fix\MelonLoader\Il2CppAssemblies\UnityEngine.XRModule.dll) call to AssemblyLoadContext.Default.LoadFromAssemblyPath. Mod Devs: You may wish to use this explictly.
+[23:30:54.947] [UnityExplorer] [UniverseLib] Loaded Unhollowed modules in 1.006 seconds.
+[23:30:55.079] [UnityExplorer] [UniverseLib] Setup deobfuscation cache in 0.132 seconds.
+[23:30:55.376] [UnityExplorer] [UniverseLib] Initialized Legacy Input support
