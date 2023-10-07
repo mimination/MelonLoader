@@ -3,6 +3,7 @@ GUIDE TO NAVIGATING GAME OBFUSCATION FOR MODDING PURPOSES
 SETUP:
 1. DOWNLOAD MelonLoader & Realmstock to folder
 C:\Users\mimi\Documents\RealmOfTheMadGod\Production
+Rikkos guide as requested: https://www.youtube.com/watch?v=S4qmEoYrzko
 
 2. Launch the game. Wait for the metadata error to appear, then close it.
 
